@@ -1,4 +1,5 @@
 from mbz import ZapBot
+import random as r
 import time
 
 """
@@ -14,6 +15,7 @@ Lista de navegadores para o parametro 'browser':
 'chrome'; 'safari'; 'edge'; 'firefox'.
 """
 
+d6 = r.randrange(1,7);
 bot = ZapBot('chrome');
-bot.send('Teste', 'ZapBot 1.0 version');
+bot.send('Teste', f"ZapBot 1.1 version. D6: {d6}");
 time.sleep(5);
