@@ -1,0 +1,53 @@
+╔═════════════════════════════╗
+_PYTHON AUTO WHATSAPP MESSAGES_
+╚═════════════════════════════╝
+⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡴⠋⠉⡊⢁⠀⠀⢬⠀⠉⠋⠈⠥⠤⢍⡛⠒⠶⣄⡀⠀⠀⠀
+⠀⠀⠀⠀⣾⠥⠀⠀⠊⢭⣾⣿⣷⡤⠀⣠⡀⡅⢠⣶⣮⣄⠉⠢⠙⡆⠀⠀
+⠀⠀⣠⡾⣁⡨⠴⠢⡤⣿⣿⣿⣿⣿⠸⡷⠙⣟⠻⣯⣿⣟⣃⣠⡁⢷⣄⠀
+⠀⡼⡙⣜⡕⠻⣷⣦⡀⢙⠝⠛⡫⢵⠒⣀⡀⠳⡲⢄⣀⢰⣫⣶⡇⡂⠙⡇
+⢸⡅⡇⠈⠀⠀⠹⣿⣿⣷⣷⣾⣄⣀⣬⣩⣷⠶⠧⣶⣾⣿⣿⣿⡷⠁⣇⡇
+⠀⠳⣅⢀⢢⠡⠀⡜⢿⣿⣿⡏⠑⡴⠙⣤⠊⠑⡴⠁⢻⣿⣿⣿⠇⢀⡞⠀
+⠀⠀⠘⢯⠀⡆⠀⠐⡨⡻⣿⣧⣤⣇⣀⣧⣀⣀⣷⣠⣼⣿⣿⣿⠀⢿⠀⠀
+⠀⠀⠀⠈⢧⡐⡄⠀⠐⢌⠪⡻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⢸⠀⠀
+⠀⠀⠀⠀⠀⠙⢾⣆⠠⠀⡁⠘⢌⠻⣿⣿⠻⠹⠁⢃⢹⣿⣿⣿⡇⡘⡇⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⠛⠷⢴⣄⠀⢭⡊⠛⠿⠿⠵⠯⡭⠽⣛⠟⢡⠃⡇⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⠬⣥⣀⡀⠀⢀⠀⠀⣠⡲⢄⡼⠃⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠓⠒⠒⠒⠋⠉⠀⠀⠀
+
+Para usar, você deve ter o python instalado e as bibliotecas mencionadas abaixo:
+pyautogui;
+time;
+random;
+subprocess.
+
+>_PRECAUÇÕES_<:
+Use o codigo no arquivo "/set.py" para saber as coordenadas da caixa de texto do
+seu WhatsApp e as coloque nos arquivos '.py' da pasta "/Modes".
+
+*_\UTILIZAÇÃO/_*:
+Abra o arquivo "/app.py".
+Existem 3 modos por enquanto: ZaWarudo, Simple e Music.
+
+O +!Simple Mode!- serve para enviar uma única mensagem repetidas vezes.
+*Parametros do !Simple Mode!*:
+- Mensagem a ser enviada;
+- Quantidade de mensagens.
+
+O |)ZaWarudo Mode(| serve para imitar o DIO Brando de JOJO's BIZARRE ADVENTURES.
+*Parametros do ZaWarudo*:
+- Quantidade de mensagens.
+
+O &*Music Mode*& serve para enviar a letra de uma música.
+'"Modo de utilizar"':
+Para utilizar o Music Mode, escreva a letra da música no "/Modes/music.txt" sem acentos.
+
+
+. *Sobre o Criador:* .
+╭∪─∪──────────────────────────.
+┊ Nome: Ryan
+┊ Idade: 14 anos
+┊ Pronomes: Ele/Dele/-o
+┊ Sexualidade: Heterosexual
+┊ Atual linguagem: Python/C++
+╰──────────────────────────────.
