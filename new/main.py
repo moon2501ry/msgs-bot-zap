@@ -14,8 +14,7 @@ e importe a classe ZapBot ('from mbz import ZapBot');
 Lista de navegadores para o parametro 'browser':
 'chrome'; 'safari'; 'edge'; 'firefox'.
 """
-
-d6 = r.randrange(1,7);
 bot = ZapBot('chrome');
-bot.send('Teste', f"ZapBot 1.1 version. D6: {d6}");
+bot.set_chat('Antônio Amg');
+bot.send("Bora jogar Code Names");
 time.sleep(5);
