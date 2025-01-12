@@ -1,4 +1,5 @@
 from mbz import ZapBot
+from datetime import datetime
 import random as r
 import time
 
@@ -14,7 +15,15 @@ e importe a classe ZapBot ('from mbz import ZapBot');
 Lista de navegadores para o parametro 'browser':
 'chrome'; 'safari'; 'edge'; 'firefox'.
 """
-bot = ZapBot('chrome');
-bot.set_chat('Antônio Amg');
-bot.send("Bora jogar Code Names");
-time.sleep(5);
+
+bot = ZapBot();
+bot.set_chat('Teste');
+bot.send(bot.__version__);
+
+# while True:
+#     time.sleep(10);
+#     time_ = datetime.now().strftime("%H:%M");
+#     match time_:
+#         case :
+#             bot.send()
+#     print(time_);

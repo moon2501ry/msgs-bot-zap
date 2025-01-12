@@ -18,7 +18,8 @@ Lista de navegadores para o parametro 'browser':
 """
 
 class ZapBot():
-    def __init__(self, browser: str):
+    def __init__(self, browser: str | None = 'chrome'):
+        self.__version__ = 'MBZ 1.2 version';
         match browser:
             case 'chrome':
                 self.web = webdriver.Chrome();
@@ -28,8 +29,6 @@ class ZapBot():
                 self.web = webdriver.Edge();
             case 'safari':
                 self.web = webdriver.Safari();
-            case '':
-                self.web = webdriver.Chrome();
         self.web.get('https://web.whatsapp.com/');
     
     def set_chat(self, user: str):
@@ -37,7 +36,7 @@ class ZapBot():
             time.sleep(15);
             try:
                 self.web.find_element(By.CSS_SELECTOR, 'div._aigw.x9f619.x1n2onr6.x5yr21d.x17dzmu4.x1i1dayz.x2ipvbc.x1w8yi2h.x78zum5.xdt5ytf.xa1v5g2.x1plvlek.xryxfnj.xd32934');
-                print('Ready');
+                print(self.__version__);
                 break;
             except:
                 print('Please log in. Or a ERROR occurred');
@@ -47,7 +46,7 @@ class ZapBot():
         except:
             print('A ERROR occurred with the user chat');
     
-    def send(self, msg: str):
+    def send(self, msg: str | None = 'MBZ 1.2 version'):
         try:
             send_ = self.web.find_element(By.CSS_SELECTOR, 'div._ak1r').find_element(By.CSS_SELECTOR, 'p.selectable-text.copyable-text.x15bjb6t.x1n2onr6');
             send_.send_keys(str(msg) + Keys.ENTER);
@@ -68,4 +67,4 @@ class ZapBot():
                 return 0;
 
 if __name__ == '__main__':
-    print("This code can't to be used like a main code. Please use with 'import mbz'.")
+    print("This code can't to be used like a main code. Please use with 'import mbz'.");
