@@ -18,7 +18,7 @@ Lista de navegadores para o parametro 'browser':
 
 class ZapBot():
     def __init__(self, browser: str | None = 'chrome'):
-        self.__version__ = 'MBZ 1.2 version';
+        self.__version__ = 'MBZ 2.0 version';
         match browser:
             case 'chrome':
                 self.web = webdriver.Chrome();
