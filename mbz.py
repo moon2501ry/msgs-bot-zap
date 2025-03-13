@@ -28,6 +28,9 @@ class ZapBot():
                 self.web = webdriver.Edge();
             case 'safari':
                 self.web = webdriver.Safari();
+            case _:
+                print("Error: browser invalid")
+                quit();
         self.web.get('https://web.whatsapp.com/');
         while True:
             time.sleep(15);
@@ -45,12 +48,15 @@ class ZapBot():
         except:
             print('A ERROR occurred with the user chat');
     
-    def send(self, msg: str | None = None):
+    def send(self, msg: str | None = None, _enter: bool | None = True):
         if msg is None:
             msg = self.__version__;
         try:
             send_ = self.web.find_element(By.CSS_SELECTOR, 'div._ak1r').find_element(By.CSS_SELECTOR, 'p.selectable-text.copyable-text.x15bjb6t.x1n2onr6');
-            send_.send_keys(str(msg) + Keys.ENTER);
+            if _enter == True:
+                send_.send_keys(str(msg) + Keys.ENTER);
+            elif _enter == False:
+                send_.send_keys(str(msg));
         except:
             print('A ERROR occurred with the message');
 

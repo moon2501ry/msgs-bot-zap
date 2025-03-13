@@ -16,7 +16,8 @@ match mode:
         with open(f_txt, "r", encoding="utf-8") as txt:
             msgs = txt.readlines();
         for msg in msgs:
-            bot.send(msg);
+            bot.send(msg, False);
+            bot.send("\n");
     case "ZaWarudo":
         num_msg = int(prompt("Quantidade de MUDAs:", "MBZ - Number Select"));
         for _ in range(num_msg):
