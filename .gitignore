@@ -1,5 +1,6 @@
 __pycache__/
-build-mbz/
+dist/
 
+automsg.spec
 icon.png
 icon.ico
