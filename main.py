@@ -1,7 +1,7 @@
 from mbz import ZapBot
 from pymsgbox import *
 
-nav = confirm("Selecione seu navegador:", "MBZ - Nav Select", ['edge','firefoz','chrome','safari']);
+nav = confirm("Selecione seu navegador:", "MBZ - Nav Select", ['edge','firefox','chrome','safari']);
 bot = ZapBot(nav);
 mode = confirm("Modo de enviar:", "MBZ - Mode Select", ['Repetido','Arquivo','TXT','ZaWarudo']);
 user = prompt("Nome do usuário do WhatsApp:", "MBZ - User Select");
